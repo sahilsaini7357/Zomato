@@ -1,0 +1,74 @@
+.bg-img {
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('/assest/img/menu-icon.png');
+}
+
+.no-border:focus {
+
+    border: none;
+    box-shadow: none;
+
+}
+
+.icon {
+
+    color: red;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 160px;
+    width: 100%;
+
+}
+
+.cards {
+    height: 260px;
+    width: 100%;
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* font-size: 15px; */
+    /* font-weight: bold; */
+    text-shadow: 2px 2px 4px #000;
+    /* margin-top: 40px; */
+
+}
+
+.text-p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.box1 {
+    box-shadow: rgba(14, 63, 126, 0.06) 0px 0px 0px 1px, rgba(42, 51, 70, 0.03) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 2px 2px -1px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.03) 0px 5px 5px -2.5px, rgba(42, 51, 70, 0.03) 0px 10px 10px -5px, rgba(42, 51, 70, 0.03) 0px 24px 24px -8px;
+    height: 75px;
+}
